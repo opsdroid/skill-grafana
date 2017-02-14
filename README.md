@@ -1,32 +1,24 @@
-# opsdroid skill hello
+# opsdroid skill grafana
 
-A skill for [opsdroid](https://github.com/opsdroid/opsdroid) to respond to hello and goodbye messages.
+A skill for [opsdroid](https://github.com/opsdroid/opsdroid) to notify on alerts from Grafana.
 
 ## Requirements
 
-None.
+Grafana.
 
 ## Configuration
 
-None.
+```yaml
+skills:
+  - name: grafana
+    room: "#monitoring"  # (Optional) room to send alert to
+```
 
 ## Usage
 
-#### `hello`
+Configure a webhook alert in grafana which points to your opsdroid webhook.
 
-Says hello to the user.
-
-> user: hello
->
-> opsdroid: Hi user
-
-#### `goodbye`
-
-Says goodbye to the user.
-
-> user: bye
->
-> opsdroid: Bye user
+![Webhook Config](https://cloud.githubusercontent.com/assets/1610850/22939440/96b31a8a-f2d6-11e6-9913-602ce467a4e1.png)
 
 ## License
 
