@@ -19,7 +19,3 @@ skills:
 Configure a webhook alert in grafana which points to your opsdroid webhook.
 
 ![Webhook Config](https://cloud.githubusercontent.com/assets/1610850/22939440/96b31a8a-f2d6-11e6-9913-602ce467a4e1.png)
-
-## License
-
-GNU General Public License Version 3 (GPLv3)
